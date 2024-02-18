@@ -383,7 +383,7 @@ void setup() {
     "LerNTC",
     1024,  // Stack size
     NULL,
-    1,  // Prioridade 2, pois o mais importante é a leitura do potenciometro e controlo do motor e a temperatura varia lentamente
+    1,  
     &TaskLerNTCHandle,  // Store the handle
     ARDUINO_RUNNING_CORE);
   /*******************************************************/
